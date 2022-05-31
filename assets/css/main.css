@@ -1623,7 +1623,7 @@ ol {
 }
 
 .header .navbar-brand img {
-  width: 160px;
+  width: 250px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1994,7 +1994,7 @@ ol {
 }
 
 .hero-area .hero-image img {
-  width: 100%;
+  width: 600px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2956,6 +2956,3 @@ ol {
   background-color: #fff ;
 }
 
-.lni{
-  font-family: "Inter", sans-serif;
-}
