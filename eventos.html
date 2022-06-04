@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ayuDAR</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/logo/logo.png"
+    />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-icon">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+      <div class="container" id="nav-header">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="nav-inner">
+              <!-- Start Navbar -->
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo/logo-verde.png" alt="Logo" />
+                </a>
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a href="index.html" style="color: black">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="index.html" style="color: black">Guia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="eventos.html" style="color: black">Eventos</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar collapse -->
+              </nav>
+              <!-- End Navbar -->
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Body Area-->
+    <section id="home" class="hero-area">
+      <div>
+        <form action="#" class="formulario">
+          <h1 class="solicitaEvento" data-wow-delay=".4s">
+            Solicita tu evento
+          </h1>
+          <label for="username" class="username">
+            Nombre de la organización:
+          </label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Nombre de la organización"
+          />
+          <label for="username" class="ubicacion">
+            Ubicación del evento:
+          </label>
+          <input
+            type="text"
+            id="ubicacion"
+            name="ubicacion"
+            placeholder="Ubicación del evento:"
+          />
+
+          <label for="w3review" class="textarea">
+            Contanos acerca de tu evento:
+          </label>
+
+          <textarea
+            id="w3review"
+            name="w3review"
+            rows="4"
+            cols="50"
+            placeholder="Escriba su texto aquí..."
+          ></textarea>
+
+          <label for="evento" class="eventoTitulo">Tipo de evento:</label>
+
+          <select name="eventos" id="Tipo" class="eventoTipo">
+            <option value="colecta-comida">Colecta de comida</option>
+            <option value="colecta-ropa">Colecta de ropa</option>
+            <option value="show-benefico">Show benéfico</option>
+            <option value="subasta-benefica">Subasta benéfica</option>
+            <option value="Otro">Otro</option>
+          </select>
+
+          <label for="exampleFormControlFile1" class="labelArchivo"
+            >Subí las imágenes/videos</label
+          >
+          <input type="file" class="archivo" id="exampleFormControlFile1" />
+
+          <label for="start" class="fechaEvento">Fecha del evento:</label>
+          <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2018-07-22"
+            min="2022-03-06"
+            max="2050-12-31"
+            class="pickerFecha"
+          />
+
+          <button type="button" class="butn btn-outline-success">
+            Solicitar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+      <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      //====== counter up
+      var cu = new counterUp({
+        start: 0,
+        duration: 2000,
+        intvalues: true,
+        interval: 100,
+        append: " ",
+      });
+      cu.start();
+    </script>
+  </body>
+</html>
