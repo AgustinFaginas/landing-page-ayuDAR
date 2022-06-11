@@ -73,87 +73,16 @@
     <!-- End Header Area -->
 
     <!-- Start Body Area-->
+    <!-- Start Body Area-->
     <section id="home" class="hero-area">
       <div>
-        <form action="eventoSolicitado.html" class="formulario" method="post">
-          <h1 class="solicitaEvento" data-wow-delay=".4s">
-            Solicita tu evento
-          </h1>
-          <label for="username" class="username">
-            Nombre de la organización:
-          </label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Nombre de la organización"
-            maxlength="15"
-            minlength="5"
-            required
-          />
-          <label for="username" class="ubicacion">
-            Ubicación del evento:
-          </label>
-          <input
-            type="text"
-            id="ubicacion"
-            name="ubicacion"
-            placeholder="Ubicación del evento"
-            maxlength="20"
-            minlength="5"
-            required
-          />
+        <h1 class="solicitasteEvento" data-wow-delay=".4s">
+          Solicitaste tu evento correctamente!
+        </h1>
 
-          <label for="w3review" class="textarea">
-            Contanos acerca de tu evento:
-          </label>
-
-          <textarea
-            id="w3review"
-            name="w3review"
-            rows="4"
-            cols="50"
-            placeholder="Escriba su texto aquí..."
-            maxlength="140"
-            minlength="10"
-            required
-          ></textarea>
-
-          <label for="evento" class="eventoTitulo">Tipo de evento:</label>
-
-          <select name="eventos" id="Tipo" class="eventoTipo">
-            <option value="colecta-comida">Colecta de comida</option>
-            <option value="colecta-ropa">Colecta de ropa</option>
-            <option value="show-benefico">Show benéfico</option>
-            <option value="subasta-benefica">Subasta benéfica</option>
-            <option value="Otro">Otro</option>
-          </select>
-
-          <label for="exampleFormControlFile1" class="labelArchivo"
-            >Subí las imágenes/videos</label
-          >
-          <input type="file" class="archivo" id="exampleFormControlFile1" />
-
-          <label for="start" class="fechaEvento">Fecha del evento:</label>
-          <input
-            type="date"
-            id="start"
-            name="trip-start"
-            value="2022-06-22"
-            min="2022-06-22"
-            max="2050-12-31"
-            class="pickerFecha"
-            required
-          />
-
-          <button
-            type="submit"
-            onclick="return enviarFormulario"
-            class="butn btn-outline-success"
-          >
-            Solicitar
-          </button>
-        </form>
+        <button type="submit" class="butn2 btn-outline-success">
+          <a href="index.html" class="volverInicio">Volver al Inicio</a>
+        </button>
       </div>
     </section>
 

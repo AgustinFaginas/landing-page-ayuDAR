@@ -2977,12 +2977,12 @@ margin-left: 35%;
 box-shadow: 0 .5rem 2rem black;
 border-radius: 1.5rem;
 padding: 20px;
-background-color: #62bd60;
+background-color: white;
 
 }
 
 .formulario h1{
-  color: white;
+  color: #62bd60;
 }
 
 
@@ -2993,6 +2993,7 @@ margin-left: 30%;
 box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 border-radius: .5rem;
 border: 2px  solid #62bd60;
+border-radius: 4px;
 color: #62bd60;
 font-weight: bold;
 margin-top: 30px;
@@ -3003,6 +3004,7 @@ margin-top: 30px;
   margin-top: 0px;
   margin-left: 280px;
   border: 1px  solid #62bd60;
+  border-radius: 4px;
   
 
 }
@@ -3011,7 +3013,7 @@ margin-top: 30px;
   width: 40%;
   margin-top: -163px;
   margin-left: 280px;
-  color: white;
+  color: #62bd60;
   font-weight: bold;
   
 }
@@ -3019,15 +3021,16 @@ margin-top: 30px;
 #w3review{
   width: 250px;
   border: 1px  solid #62bd60;
+  border-radius: 4px;
   font-weight: bold;
 }
 .fechaEvento{
   margin-top: 20px;
-  color: white;
+  color: #62bd60;
   font-weight: bold;
 }
 .textarea{
-  color: white;
+  color: #62bd60;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -3035,23 +3038,26 @@ margin-top: 30px;
   margin-top: -20px;
   width: 30%;
   border: 1px  solid #62bd60;
+  border-radius: 4px;
   
 }
 
 .username{
   margin-top: 15px;
-  color: white;
+  color: #62bd60;
   font-weight: bold;
 }
 #username{
   width: 250px;
   border: 1px  solid #62bd60;
+  border-radius: 4px;
   font-weight: bold;
 }
 #ubicacion{
   width: 250px;
   margin-left: 280px;
   border: 1px  solid #62bd60;
+  border-radius: 4px;
   font-weight: bold;
 }
 
@@ -3059,7 +3065,7 @@ margin-top: 30px;
   margin-top: -95px;
   margin-left: 280px;
   font-weight: bold;
-  color: white;
+  color: #62bd60;
 }
 
 .formularioSection{
@@ -3076,7 +3082,7 @@ margin-top: 30px;
 .labelArchivo{
   margin-left: 280px;
   
-  color: white;
+  color: #62bd60;
   font-weight: bold;
 
 }
@@ -3084,7 +3090,7 @@ margin-top: 30px;
 .archivo{
   margin-left: 280px;
   margin-top: -20px;
-  color: white;
+  color: #62bd60;
   
 }
 
@@ -3101,6 +3107,32 @@ color: #62bd60;
 font-weight: bold;
 margin-top: 30px;
 font-size: 20px;
+}
+
+.solicitasteEvento{
+  color: white;
+  margin-top: 150px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+
+}
+
+.volverInicio{
+  color: #62bd60;
+}
+
+.butn2{
+width: 400px;
+height: 80px;
+margin-left: 40%;
+font-size: 30px;
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+border-radius: .5rem;
+border: 2px  solid #62bd60;
+color: #62bd60;
+font-weight: bold;
+margin-top: 30px;
 }
 
 
