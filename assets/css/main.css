@@ -3013,7 +3013,7 @@ margin-top: 30px;
   width: 40%;
   margin-top: -163px;
   margin-left: 280px;
-  color: #62bd60;
+  color: black;
   font-weight: bold;
   
 }
@@ -3026,11 +3026,11 @@ margin-top: 30px;
 }
 .fechaEvento{
   margin-top: 20px;
-  color: #62bd60;
+  color: black;
   font-weight: bold;
 }
 .textarea{
-  color: #62bd60;
+  color: black;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -3044,7 +3044,7 @@ margin-top: 30px;
 
 .username{
   margin-top: 15px;
-  color: #62bd60;
+  color: black;
   font-weight: bold;
 }
 #username{
@@ -3065,7 +3065,7 @@ margin-top: 30px;
   margin-top: -95px;
   margin-left: 280px;
   font-weight: bold;
-  color: #62bd60;
+  color: black;
 }
 
 .formularioSection{
@@ -3082,7 +3082,7 @@ margin-top: 30px;
 .labelArchivo{
   margin-left: 280px;
   
-  color: #62bd60;
+  color: black;
   font-weight: bold;
 
 }
